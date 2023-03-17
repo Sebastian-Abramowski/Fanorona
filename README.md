@@ -51,7 +51,7 @@ A simple program that allows you to play
 
 ## Usage
 
-###### Running from the command line
+##### Running from the command line
 #### pip install pygame <br />
 #### python main.py <br />
 ###### Change constants.py if you want to change a number of rows and columns of the board

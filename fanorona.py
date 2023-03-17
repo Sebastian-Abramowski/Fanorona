@@ -371,9 +371,9 @@ class Fanorona:
                 pawn.if_capture = True
 
     def turn_approach(self, n_row, n_col, move_sound=False):
-        self.register_poss_of_pawn()
-        capt_mv_ap = self.capturing_moves_approach
         if self.problematic_cap is False:
+            self.register_poss_of_pawn()
+            capt_mv_ap = self.capturing_moves_approach
             if (n_row, n_col) in capt_mv_ap:
                 self.move_and_capture_by_approach(
                     n_row, n_col)
