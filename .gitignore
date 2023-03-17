@@ -1,0 +1,6 @@
+.pytest_cache
+__pycache__/
+.vscode
+Pomocniczne highlighty/*
+Pomocniczne/*
+projekt_link_do_repo.txt

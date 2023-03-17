@@ -1,0 +1,38 @@
+About Fanorona:
+Fanorona is a Madagascan game that appeared around 1680 and which has adopted an unusual and interesting form of capture.
+The best and most common form of Fanorona is played on a 9 x 5 board. It starts with an almost entirely populated board as shown in diagram.
+The objective of the game is to take all of the opponent's pieces.
+
+Basic Play:
+Players take turns to move one of their pieces. For each turn, a player either moves or captures.
+To move a piece, it is simply moved along a line to an empty space on the board.
+Capturing is compulsory, if it is possible, and is done in one of two ways.
+Capture by Approach - A piece captures by moving to an adjacent empty point so that an enemy piece is on the next point in the direction of movement.
+The enemey piece and any further enemy pieces forming an unbroken straight line in the same direction are taken.
+Capture by Withdrawal - this is the reverse of capture by approach. If a piece begins next to an enemy piece and moves away from it in
+an adjacent empty space in the opposite direction, then that enemy piece and any adjacently beyond it in an unbroked straight line
+line are captured and removed from the board.
+
+Once a player has made a capture, if another capture move is possible, the player must play it and so on until no more capturing
+moves are possible.
+
+Sometimes, a piece is in the lucky position of being able to capture by approach and by withdrawal in the same move. In this case,
+only one type of capture is allowed - the player decides which.
+
+Capture Move Restrictions
+You cannot capture in the same direction as the previous capture move.
+You cannot return to a point previously occupied during the multiple capture move.
+
+The first time a player captures in each game, only a single capture is allowed - the player's turn ends immediately the first
+capture move is taken.
+
+About Fanorona on 3x3 board:
+Each player has three pieces. Once all pieces are placed, players take turns moving pieces one spot to an adjacent point along
+the lines trying to make three in a row (they are no captures allowed there, only paika moves). This game is much easier comparing
+to Fanorona game on different boards.
+
+-----
+Additional rule:
+Before picking your first piece, you can decide to let your enemy start by presing 'F'.
+
+.....
