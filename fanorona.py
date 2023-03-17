@@ -465,7 +465,7 @@ class Fanorona:
             if self.change is True:
                 cond1 = clicked_pawn in self.able_to_capture
                 cond2 = not self.able_to_capture
-                if cond1 or cond2:
+                if cond1 or cond2 or (ROWS == 3 and COLS == 3):
                     self.highlight_clicked(
                         clicked_pawn)
             # clearing list of possibilites just in case
