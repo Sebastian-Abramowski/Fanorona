@@ -24,7 +24,7 @@ win_sound = pygame.mixer.Sound("Audio/win-sound.wav")
 win_sound.set_volume(0.3)
 
 
-def what_pawn_or_empty_space_was_clicked(board: "Board", pawns: "Pawns"):
+def determine_clicked_square(board: "Board", pawns: "Pawns"):
     """
     Returns either an instance of clicked Pawn or tuple - center of
     clicked Rect (square box)
@@ -104,7 +104,7 @@ def main_comp(comp=0, random=0):
                     board = fanorona.board
                     pawns = fanorona.pawns
                     clicked_pawn_or_center_empty_space = (
-                        what_pawn_or_empty_space_was_clicked(board, pawns)
+                        determine_clicked_square(board, pawns)
                         )
                     if isinstance(clicked_pawn_or_center_empty_space, Pawn):
                         clicked_pawn = clicked_pawn_or_center_empty_space
@@ -191,6 +191,8 @@ def main_comp(comp=0, random=0):
 
 if __name__ == "__main__":
     comp, rand = user_interface()
-    # because of taking inputs, now application such as vs code
-    # has focus, so pygame display is shown below it on the screen
+    """
+    because of taking inputs, now application such as vs code
+    has focus, so pygame display is shown below it on the screen
+    """
     main_comp(comp, rand)
